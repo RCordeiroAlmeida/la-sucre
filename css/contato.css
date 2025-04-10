@@ -1,0 +1,35 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff8f9;
+  }
+  
+  h2 {
+    color: #412c01;
+  }
+  
+  .navbar-brand img {
+    height: 50px;
+  }
+  
+  .form-contato input,
+  .form-contato textarea {
+    border-radius: 0.5rem;
+    border: 1px solid #f3dfe1;
+  }
+  
+  .btn-enviar {
+    background-color: #FBC5C8;
+    border: none;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .btn-enviar:hover {
+    background-color: #f7a6aa;
+  }
+  
+  .img-contato {
+    max-height: 500px;
+    object-fit: contain;
+  }
+  

@@ -1,0 +1,71 @@
+
+
+body {
+    padding-top: 120px; /* Espaço para o menu fixo */
+    font-family: 'Montserrat', sans-serif;
+}
+
+#logo{
+    width: 100px;
+}
+#img-top{
+    width: 300px;
+    padding-bottom: 100px
+}
+
+.carousel-item img{
+    height: 400px; /* ou o valor que você quiser */
+    object-fit: cover;
+}
+
+#Banner-1, #Banner-3{
+    object-position: center;
+}
+
+#Banner-2{
+    object-position: top;
+}
+
+
+#donuts-img{
+    width: 500px;
+}
+
+.img-perfil{
+    object-fit: cover;
+}
+
+.img-galeria {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-galeria:hover,
+.img-galeria.active {
+transform: scale(1.05);
+box-shadow: 0 0 10px rgba(255, 193, 7, 0.6);
+}
+
+#galeria-doces{
+    padding-top:5%;
+}
+
+#descricao-doce h3 {
+    color: #412c01;
+}
+
+.btn-contato {
+background-color: #FBC5C8;
+color: white;
+border: none;
+transition: background-color 0.3s ease;
+}
+
+.btn-contato:hover {
+background-color: #f9acb0; /* tom levemente mais escuro no hover */
+color: white;
+}
+
+.titulo-chamada{
+    color: #412c01;
+}
