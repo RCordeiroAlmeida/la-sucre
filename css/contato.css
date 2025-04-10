@@ -18,14 +18,15 @@ body {
   }
   
   .btn-enviar {
-    background-color: #FBC5C8;
+    background-color: #644234;
     border: none;
-    color: white;
+    color: #fff;
     font-weight: 600;
   }
   
   .btn-enviar:hover {
-    background-color: #f7a6aa;
+    background-color: #4d3328;
+    color: #fff;
   }
   
   .img-contato {
