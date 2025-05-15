@@ -1,5 +1,4 @@
 body {
-    padding-top: 120px; /* Espaço para o menu fixo */
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -12,7 +11,7 @@ body {
 }
 
 .carousel-item img{
-    height: 400px; /* ou o valor que você quiser */
+    height: 400px; 
     object-fit: cover;
 }
 
@@ -60,7 +59,7 @@ transition: background-color 0.3s ease;
 }
 
 .btn-contato:hover {
-background-color: #4d3328; /* tom levemente mais escuro no hover */
+background-color: #4d3328;
 color: white;
 }
 

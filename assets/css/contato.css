@@ -5,11 +5,7 @@ body {
   
   h2 {
     color: #412c01;
-  }
-  
-  .navbar-brand img {
-    height: 50px;
-  }
+  } 
   
   .form-contato input,
   .form-contato textarea {

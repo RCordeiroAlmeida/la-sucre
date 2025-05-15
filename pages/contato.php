@@ -11,28 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 
     <!-- CSS do site -->
-    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/contato.css">
 </head>
 
 <body>
 
-    <!-- Menu fixo -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top sweet-navbar shadow-sm">
-        <div class="container">
-            <a class="navbar-brand sweet-logo" href="#"><img src="img/LOGO.webp" alt="Logo La Sucré" id="logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDoces">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-between" id="navbarDoces">
-                <ul class="navbar-nav w-100 d-flex justify-content-evenly">
-                    <li class="nav-item"><a class="nav-link sweet-link" href="index.html#inicio">Início</a></li>
-                    <li class="nav-item"><a class="nav-link sweet-link" href="index.html#produtos">Produtos</a></li>
-                    <li class="nav-item"><a class="nav-link sweet-link" href="index.html#sobre">Sobre</a></li>
-                    <li class="nav-item"><a class="nav-link sweet-link" href="#contato">Contato</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+   <?php include '../includes/menu.php';?>
 
     <!-- Espaço para o menu fixo -->
     <div style="height: 80px;"></div>
@@ -45,7 +30,7 @@
 
                 <!-- Imagem decorativa -->
                 <div class="col-md-6 text-center">
-                    <img src="img/contato.jpg" alt="Contato" class="img-fluid rounded shadow-sm img-contato">
+                    <img src="../assets/img/contato.jpg" alt="Contato" class="img-fluid rounded shadow-sm img-contato">
                 </div>
 
                 <!-- Texto + formulário -->

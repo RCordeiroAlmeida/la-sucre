@@ -1,0 +1,28 @@
+body {
+    background-color: #fff8f0;
+    padding-top: 80px;
+}
+
+.acesso-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #412C01;
+}
+
+.btn-sweet {
+    background-color: #412C01;
+    color: white;
+    border: none;
+}
+
+.btn-sweet:hover {
+    background-color: #2e1f00;
+}

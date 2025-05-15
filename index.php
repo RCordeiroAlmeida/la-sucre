@@ -8,39 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
 
-
-
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top sweet-navbar shadow-sm">
-        <div class="container">
-            <a class="navbar-brand sweet-logo" href="#"><img src="img/LOGO.webp" alt="" id="logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDoces">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-between" id="navbarDoces">
-                <ul class="navbar-nav w-100 d-flex justify-content-evenly">
-                    <li class="nav-item">
-                        <a class="nav-link sweet-link" href="#galeria-doces">Produtos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link sweet-link" href="#depoimentos">Depoimentos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link sweet-link" href="#sobre">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link sweet-link" href="contato.html">Contato</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <header
-
+   
+    <header>
+        <?php include 'includes/menu.php'; ?>
     </header>
 
     <section class="py-5 bg-light" id="inicio">
@@ -49,7 +24,7 @@
 
                 <!-- Texto -->
                 <div class="col-md-6">
-                    <img src="img/LOGO.webp" id="img-top" class="d-block mx-auto mb-4" alt="Logo La Sucré">
+                    <img src="assets/img/LOGO.webp" id="img-top" class="d-block mx-auto mb-4" alt="Logo La Sucré">
 
                     <h2 class="display-5 fw-bold titulo-chamada">Vai um docinho aí?</h2>
                     <p class="lead">
@@ -60,7 +35,7 @@
                 </div>
                 <!-- Imagem -->
                 <div class="col-md-6 text-center img-donuts">
-                    <img src="img/image1.webp" alt="Donuts sendo jogados para cima" class="img-fluid rounded shadow">
+                    <img src="assets/img/image1.webp" alt="Donuts sendo jogados para cima" class="img-fluid rounded shadow">
                 </div>
 
             </div>
@@ -78,21 +53,21 @@
         <!-- Slides -->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/banner1.webp" class="d-block w-100" alt="Banner 1" id="Banner-1">
+                <img src="assets/img/banner1.webp" class="d-block w-100" alt="Banner 1" id="Banner-1">
                 <div class="carousel-caption d-none d-md-block">
                     <h3>Você nunca viu algo assim</h3>
                     <p>Escolha seu sabor favorito e se deixe levar.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/banner2.webp" class="d-block w-100" alt="Banner 2" id="Banner-2">
+                <img src="assets/img/banner2.webp" class="d-block w-100" alt="Banner 2" id="Banner-2">
                 <div class="carousel-caption d-none d-md-block">
                     <h3>Você vai querer mais de um... A gente garante.</h3>
                     <p>Uma mordida e pronto: o difícil é parar.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/banner3.webp" class="d-block w-100" alt="Banner 3" id="Banner-3">
+                <img src="assets/img/banner3.webp" class="d-block w-100" alt="Banner 3" id="Banner-3">
                 <div class="carousel-caption d-none d-md-block">
                     <h3>Recheado com sabor. Finalizado com amor.</h3>
                     <p>Faça seu pedido sob medida para eventos e festas!</p>
@@ -117,17 +92,17 @@
             <div class="row">
                 <!-- Galeria de imagens -->
                 <div class="col-md-6 d-grid gap-3" style="grid-template-columns: repeat(3, 1fr);">
-                    <img src="img/bolo-de-festa.webp" alt="Bolo de Festa"
+                    <img src="assets/img/bolo-de-festa.webp" alt="Bolo de Festa"
                         class="img-galeria img-fluid rounded shadow-sm" onclick="mostrarDescricao(0)">
-                    <img src="img/surpresa-doce.webp" alt="Surpresa Doce"
+                    <img src="assets/img/surpresa-doce.webp" alt="Surpresa Doce"
                         class="img-galeria img-fluid rounded shadow-sm" onclick="mostrarDescricao(1)">
-                    <img src="img/bolo-no-palito.webp" alt="Bolo no Palito"
+                    <img src="assets/img/bolo-no-palito.webp" alt="Bolo no Palito"
                         class="img-galeria img-fluid rounded shadow-sm" onclick="mostrarDescricao(2)">
-                    <img src="img/rosa-de-chocolate.webp" alt="Rosa de Chocolate"
+                    <img src="assets/img/rosa-de-chocolate.webp" alt="Rosa de Chocolate"
                         class="img-galeria img-fluid rounded shadow-sm" onclick="mostrarDescricao(3)">
-                    <img src="img/donuts.webp" alt="Donuts" class="img-galeria img-fluid rounded shadow-sm"
+                    <img src="assets/img/donuts.webp" alt="Donuts" class="img-galeria img-fluid rounded shadow-sm"
                         onclick="mostrarDescricao(4)">
-                    <img src="img/muffin-castanha.webp" alt="Muffin de Castanha"
+                    <img src="assets/img/muffin-castanha.webp" alt="Muffin de Castanha"
                         class="img-galeria img-fluid rounded shadow-sm" onclick="mostrarDescricao(5)">
                 </div>
 
@@ -151,7 +126,7 @@
                 <div class="col-md-4">
                     <div class="bg-white p-4 rounded shadow-sm h-100">
                         <div class="d-flex align-items-center mb-3">
-                            <img src="img/ana-luiza.jpg" alt="Ana Luiza" class="rounded-circle me-3 img-perfil"
+                            <img src="assets/img/ana-luiza.jpg" alt="Ana Luiza" class="rounded-circle me-3 img-perfil"
                                 width="50" height="50">
                             <div>
                                 <h6 class="mb-0">Ana Luiza</h6>
@@ -170,7 +145,7 @@
                 <div class="col-md-4">
                     <div class="bg-white p-4 rounded shadow-sm h-100">
                         <div class="d-flex align-items-center mb-3">
-                            <img src="img/bruno-martins.jpg" alt="Bruno Martins" class="rounded-circle me-3 img-perfil"
+                            <img src="assets/img/bruno-martins.jpg" alt="Bruno Martins" class="rounded-circle me-3 img-perfil"
                                 width="50" height="50">
                             <div>
                                 <h6 class="mb-0">Bruno Martins</h6>
@@ -189,7 +164,7 @@
                 <div class="col-md-4">
                     <div class="bg-white p-4 rounded shadow-sm h-100">
                         <div class="d-flex align-items-center mb-3">
-                            <img src="img/camila-souza.jpg" alt="Camila Souza" class="rounded-circle me-3 img-perfil"
+                            <img src="assets/img/camila-souza.jpg" alt="Camila Souza" class="rounded-circle me-3 img-perfil"
                                 width="50" height="50">
                             <div>
                                 <h6 class="mb-0">Camila Souza</h6>
@@ -229,7 +204,7 @@
 
                 <!-- Imagem ilustrativa -->
                 <div class="col-md-6 text-center">
-                    <img src="img/equipe.webp" alt="Equipe La Sucré" class="img-fluid rounded shadow">
+                    <img src="assets/img/equipe.webp" alt="Equipe La Sucré" class="img-fluid rounded shadow">
                 </div>
 
             </div>
@@ -238,7 +213,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="galeria.js"></script>
+    <script src="assets/js/galeria.js"></script>
 </body>
 
 </html>
